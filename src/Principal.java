@@ -7,7 +7,7 @@ public class Principal {
 
         Movie meuMovie = new Movie();
             meuMovie.setNome("Deadpool");
-            meuMovie.setAnoDeLancamento( 2024);
+            meuMovie.setAnoDeLancamento( 2027);
             meuMovie.setDuracaoEmMinutos( 210);
 
 
