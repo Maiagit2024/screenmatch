@@ -25,7 +25,7 @@ public class Principal {
 
             serie lost = new serie();
             lost.setNome("lost");
-            lost.setAnoDeLancamento(2000);
+            lost.setAnoDeLancamento(2006);
             lost.exibeFichaTecnica();
             lost.setEpPorTemporda(9);
             lost.setTemporadas(4);
