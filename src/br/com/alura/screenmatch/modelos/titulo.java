@@ -18,6 +18,7 @@ public class titulo {
         return nome;
     }
 
+
     public int getDuracaoEmMinutos() {
         return duracaoEmMinutos;
     }
@@ -34,7 +35,7 @@ public class titulo {
         return totalDeAvaliacao;
     }
 
-    public void setNome(String n) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
@@ -52,8 +53,8 @@ public class titulo {
     }
 
     public void exibeFichaTecnica() {
-        System.out.println("Nome do Filme" + nome);
-        System.out.println("Ano de lançamento" + anoDeLancamento);
+        System.out.println("Nome do Filme : " + nome);
+        System.out.println("Ano de lançamento: " + anoDeLancamento);
     }
 
     public void avalia(double nota) {
